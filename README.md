@@ -1,0 +1,1 @@
+This terraform project handles creation of all Nexit Autos infrastructure.
