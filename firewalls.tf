@@ -32,14 +32,6 @@ resource "digitalocean_firewall" "backend_firewall" {
       "::/0",
     ]
   }
-  inbound_rule {
-    port_range = "8080"
-    protocol   = "tcp"
-    source_addresses = [
-      "0.0.0.0/0",
-      "::/0",
-    ]
-  }
 
   outbound_rule {
     destination_addresses = [
